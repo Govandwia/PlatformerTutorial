@@ -1,19 +1,18 @@
 package objects;
 
+import entities.Player;
+import gamestates.Playing;
 import java.awt.Graphics;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
-
-import entities.Player;
-import gamestates.Playing;
 import levels.Level;
 import main.Game;
-import utilz.LoadSave;
 import static utilz.Constants.ObjectConstants.*;
+import static utilz.Constants.Projectiles.*;
 import static utilz.HelpMethods.CanCannonSeePlayer;
 import static utilz.HelpMethods.IsProjectileHittingLevel;
-import static utilz.Constants.Projectiles.*;
+import utilz.LoadSave;
 
 public class ObjectManager {
 

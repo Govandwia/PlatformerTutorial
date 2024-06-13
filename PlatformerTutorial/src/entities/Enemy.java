@@ -1,14 +1,11 @@
 package entities;
 
+import java.awt.geom.Rectangle2D;
+import main.Game;
+import static utilz.Constants.*;
+import static utilz.Constants.Directions.*;
 import static utilz.Constants.EnemyConstants.*;
 import static utilz.HelpMethods.*;
-
-import java.awt.geom.Rectangle2D;
-
-import static utilz.Constants.Directions.*;
-import static utilz.Constants.*;
-
-import main.Game;
 
 public abstract class Enemy extends Entity {
 	protected int enemyType;

@@ -1,8 +1,7 @@
 package objects;
 
-import static utilz.Constants.ObjectConstants.*;
-
 import main.Game;
+import static utilz.Constants.ObjectConstants.*;
 
 public class GameContainer extends GameObject {
 

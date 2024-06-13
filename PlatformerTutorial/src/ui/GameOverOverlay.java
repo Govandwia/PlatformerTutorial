@@ -1,16 +1,14 @@
 package ui;
 
-import static utilz.Constants.UI.URMButtons.URM_SIZE;
-
+import gamestates.Gamestate;
+import gamestates.Playing;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
-
-import gamestates.Gamestate;
-import gamestates.Playing;
 import main.Game;
+import static utilz.Constants.UI.URMButtons.URM_SIZE;
 import utilz.LoadSave;
 
 public class GameOverOverlay {

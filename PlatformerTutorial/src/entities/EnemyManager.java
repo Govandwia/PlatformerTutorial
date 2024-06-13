@@ -1,14 +1,13 @@
 package entities;
 
+import gamestates.Playing;
 import java.awt.Graphics;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
-
-import gamestates.Playing;
 import levels.Level;
-import utilz.LoadSave;
 import static utilz.Constants.EnemyConstants.*;
+import utilz.LoadSave;
 
 public class EnemyManager {
 

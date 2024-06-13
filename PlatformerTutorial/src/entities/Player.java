@@ -1,17 +1,15 @@
 package entities;
 
-import static utilz.Constants.PlayerConstants.*;
-import static utilz.HelpMethods.*;
-import static utilz.Constants.*;
-
+import gamestates.Playing;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
-
-import gamestates.Playing;
 import main.Game;
+import static utilz.Constants.*;
+import static utilz.Constants.PlayerConstants.*;
+import static utilz.HelpMethods.*;
 import utilz.LoadSave;
 
 public class Player extends Entity {

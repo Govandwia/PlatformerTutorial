@@ -1,16 +1,13 @@
 package ui;
 
+import gamestates.Gamestate;
+import gamestates.Playing;
 import java.awt.Graphics;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
-
-import gamestates.Gamestate;
-import gamestates.Playing;
 import main.Game;
-import utilz.LoadSave;
-import static utilz.Constants.UI.PauseButtons.*;
 import static utilz.Constants.UI.URMButtons.*;
-import static utilz.Constants.UI.VolumeButtons.*;
+import utilz.LoadSave;
 
 public class PauseOverlay {
 
